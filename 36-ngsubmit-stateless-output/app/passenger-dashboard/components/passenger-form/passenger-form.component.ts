@@ -1,7 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 import { Passenger } from '../../models/passenger.interface';
-import { Baggage } from '../../models/baggage.interace';
+import { Baggage } from '../../models/baggage.interface';
 
 @Component({
   selector: 'passenger-form',
@@ -37,7 +37,7 @@ import { Baggage } from '../../models/baggage.interace';
 
       <div>
         <label>
-          <input 
+          <input
             type="checkbox"
             name="checkedIn"
             [ngModel]="detail?.checkedIn"
@@ -47,7 +47,7 @@ import { Baggage } from '../../models/baggage.interace';
 
       <div *ngIf="form.value.checkedIn">
         Check in date:
-        <input 
+        <input
           type="number"
           name="checkInDate"
           [ngModel]="detail?.checkInDate">
@@ -95,7 +95,7 @@ export class PassengerFormComponent {
     key: 'hand-hold',
     value: 'Hand and hold baggage'
   }];
-  
+
   toggleCheckIn(checkedIn: boolean) {
     if (checkedIn) {
       this.detail.checkInDate = Date.now();
