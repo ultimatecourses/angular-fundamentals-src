@@ -23,7 +23,7 @@
     "zone.js": "0.7.4"
   },
   "scripts": {
-    "prestart": "webpack --config vendor/webpack.config.js",
+    "build:vendor": "webpack --config vendor/webpack.config.js",
     "start": "webpack-dev-server"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "resolve-url-loader": "1.6.0",
     "sass-loader": "6.0.7",
     "typescript": "2.1.4",
-    "webpack": "2.2.0-rc.3",
+    "webpack": "2.7.0",
     "webpack-dev-server": "2.2.0-rc.0"
   }
 }
