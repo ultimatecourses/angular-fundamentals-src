@@ -10,9 +10,11 @@
   version "4.0.0-beta.1"
   resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-4.0.0-beta.1.tgz#53fc241b7c922abbfa95a9f8b233ac4bfff4805d"
 
-"@angular/core@4.0.0-beta.1":
-  version "4.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.0.0-beta.1.tgz#65dae53e74a5ae5bbf925a286290748c75d94315"
+"@angular/core@11.0.5":
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-11.0.5.tgz#b8c448c3cd4f6dae7327cc1ba4ee2aa29c8dbc26"
+  dependencies:
+    tslib "^2.0.0"
 
 "@angular/forms@4.0.0-beta.1":
   version "4.0.0-beta.1"
@@ -2858,6 +2860,10 @@ trim-newlines@^1.0.0:
 ts-helpers@1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/ts-helpers/-/ts-helpers-1.1.2.tgz#fc69be9f1f3baed01fb1a0ef8d4cfe748814d835"
+
+tslib@^2.0.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
 
 tty-browserify@0.0.0:
   version "0.0.0"
